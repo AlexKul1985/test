@@ -1,0 +1,24 @@
+section.One-representation
+	h2.text-title.text-title--white Мы открываем одно представительство в регионе
+	.wrapper
+		.representation-wrap.clearfix
+			.representation-wrap__man
+				img(src="image/man.png" alt="Мужчина")
+
+			.form-wrap.form-wrap--representation
+
+				form(name="form" action="javascript:void(0);" method="post").form.form--representation
+					span Проверьте,
+						br
+						| свободен ли Ваш город?
+					input(name="name" type="text" placeholder="Название города").form__text
+					input(name="phone" type="text" placeholder="Телефон").form__text
+					input(name="send" type="submit" value="Отправить заявку").g_btn
+				.sended.sended--representation
+					p.message.message--representation Спасибо за Вашу заявку!
+
+					p.message
+						br
+						| Наш менеджер свяжется 
+						br
+						| с Вами в ближайшее время!	

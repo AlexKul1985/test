@@ -1,0 +1,143 @@
+.top_bg {
+	
+	height: 900px;
+	background: url(../image/top-bg.jpg) center center  no-repeat ;
+	background-size: cover;
+	text-align:center;
+
+	.lozung {
+		display:inline-block;
+		margin-top:230px;
+		font-family:MuseoCyrl_700;
+		font-size:3rem;
+		color:#ffffff;
+		line-height:1.5;
+		margin-bottom:81px;
+		@media screen and (max-width:1024px) {
+					font-size:2.5rem;
+				}
+				@media screen and (max-width:620px) {
+					font-size:2.0rem;
+					margin-top:180px;
+					height: auto;
+				}
+				@media screen and (max-width:410px) {
+					font-size:1.5rem;
+					margin-top:180px;
+				}
+	}
+
+
+}
+
+
+	
+      	.form-wrap {
+	max-width:381px;
+	box-sizing: border-box;
+	width:100%;
+	margin:0 auto;
+	padding:40px 40px 37px;
+	border-radius: 42px;
+	background:rgba(255,255,255,0.2);
+	@media screen and (max-width:410px) {
+					padding:40px 25px 37px;
+				}
+	.form {
+		display:block;
+		&__text {
+			width:100%;
+			box-sizing: border-box;
+			padding:20px 30px;
+			border-radius: 42px;
+			border:none;
+			margin-bottom:30px;
+			color:#999999; 
+			font-family:@MSC_500;
+			font-size:1.125rem;
+			
+			
+		}
+			::-webkit-input-placeholder {
+			color:#999999; 
+			font-family:@MSC_500;
+			
+			font-size:1.125rem;
+			}/* webkit */
+
+			::-moz-placeholder {
+			  	color:#999999; 
+			font-family:@MSC_500;
+			
+			font-size:1.125rem;
+			}/* Firefox 19+ */
+			  :-moz-placeholder {
+			  	color:#999999; 
+			font-family:@MSC_500;
+			
+			font-size:1.125rem;
+			}/* Firefox 18- */
+			  :-ms-input-placeholder {
+			  	color:#999999; 
+			font-family:@MSC_500;
+			
+			font-size:1.125rem;
+			}/* IE */
+
+
+
+		
+			
+
+
+	}
+	.sended {
+		position:relative;
+		display:none;
+		text-align:center;
+		
+		
+		&::before {
+			content:"";
+			display:inline-block;
+			.sprite(@s-ok-send);
+			margin-top: -9px;
+			margin-bottom: 17px;
+		}
+
+		.message {
+			font-family:@MSC_500;
+			font-weight:bold;
+			font-size:1.125rem;
+			color:#fff;
+			line-height:2;
+			margin-bottom:-4px;
+		}
+	}
+
+			
+			
+
+
+
+	} 
+	.g_btn {
+			width:100%;
+			padding:16px 0px;
+			color:#fff;
+			font-family:@MSC_500;
+			font-weight:normal;
+			font-size:1.125rem;
+			border-radius: 42px;
+			background: linear-gradient(to right, #717aff 0%,#dd77ff 100%);
+			
+			box-shadow: 0 10px 30px rgba(2,2,2,.35);
+			border:none;
+			/*box-shadow: 0 10px 30px rgba(2,2,2,.35), inset -100px 0px 92px  #dd77ff,inset 240px 0px 102px #717aff;*/
+			cursor:pointer;
+		}
+
+	.form__text--empty {
+	box-shadow: 3px 3px 3px rgba(193,42,44,.5),-3px -3px 3px rgba(193,42,44,.5) ;
+	
+	}	

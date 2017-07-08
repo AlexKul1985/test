@@ -1,0 +1,44 @@
+footer {
+	min-height:70px;
+	background:#333333;
+	overflow:hidden;
+	text-align: center;
+	.wrapper {
+		max-width:1200px;
+		padding:0 10px;
+		margin:0 auto;
+		.wrap-footer {
+			line-height:70px;
+			.politics {
+		float:left;
+		font-family:@MSC_500;
+		font-size:1rem;
+		text-decoration:underline;
+		color:#ACACAC;
+		@media screen and (max-width:560px) {
+		float:none;
+		}
+		&__link {
+			color:inherit;
+		}
+		&:hover {
+			text-decoration:none;
+		}
+		
+		}
+		.phone {
+		float:right;
+		font-family:@MSC_500;
+		font-size:1.25rem;
+		color:#fff;
+		@media screen and (max-width:560px) {
+		float:none;
+		}
+		&__link {
+			color:inherit;
+		}
+		}
+		}
+		
+	}
+}
